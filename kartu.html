@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <style>
+        /* Mengatur latar belakang */
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Membentuk kartu */
+        .kartu {
+            background-color: white;
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        /* Membentuk foto menjadi lingkaran */
+        .foto {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        /* Mengatur pekerjaan */
+        .pekerjaan {
+            color: gray;
+            margin-top: -10px;
+        }
+
+        /* Mengatur tombol kontak */
+        .btn-kontak {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn-kontak:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="kartu">
+
+        <img src="fariz.jfif"
+        alt="Foto Profil" class="foto">
+
+        <h2>AHMAD AL FARIZI</h2>
+
+        <p class="pekerjaan">Web Developer</p>
+
+        <p>Siswa XI RPL yang tertarik tentang teknologi.</p>
+
+        <button class="btn-kontak">Hubungi Saya</button>
+
+    </div>
+
+</body>
+</html>
